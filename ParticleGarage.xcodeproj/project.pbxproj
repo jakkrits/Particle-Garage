@@ -1,0 +1,686 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E135505B1CA1406C00349F19 /* MainTopTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E135505A1CA1406C00349F19 /* MainTopTableViewCell.swift */; };
+		E135505F1CA1449200349F19 /* TableHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E135505E1CA1449200349F19 /* TableHeaderView.swift */; };
+		E155BAAF1CA12149007315ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E155BAAD1CA12149007315ED /* Main.storyboard */; };
+		E155BAB11CA12149007315ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E155BAB01CA12149007315ED /* Assets.xcassets */; };
+		E155BAB41CA12149007315ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E155BAB21CA12149007315ED /* LaunchScreen.storyboard */; };
+		E155BABF1CA12149007315ED /* ParticleGarageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E155BABE1CA12149007315ED /* ParticleGarageTests.swift */; };
+		E155BACA1CA12149007315ED /* ParticleGarageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E155BAC91CA12149007315ED /* ParticleGarageUITests.swift */; };
+		E155BAD91CA12157007315ED /* HomeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E155BAD81CA12157007315ED /* HomeKit.framework */; };
+		E155BAE81CA122BA007315ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E155BADB1CA122BA007315ED /* AppDelegate.swift */; };
+		E155BAE91CA122BA007315ED /* ChainIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = E155BADC1CA122BA007315ED /* ChainIcon.swift */; };
+		E155BAEA1CA122BA007315ED /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = E155BADD1CA122BA007315ED /* Constant.swift */; };
+		E155BAEB1CA122BA007315ED /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = E155BADE1CA122BA007315ED /* Device.swift */; };
+		E155BAEC1CA122BA007315ED /* DeviceDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E155BADF1CA122BA007315ED /* DeviceDetailTableViewController.swift */; };
+		E155BAED1CA122BA007315ED /* IndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E155BAE01CA122BA007315ED /* IndicatorView.swift */; };
+		E155BAEE1CA122BA007315ED /* InternetConnectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E155BAE11CA122BA007315ED /* InternetConnectionManager.swift */; };
+		E155BAEF1CA122BA007315ED /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E155BAE21CA122BA007315ED /* MainTableViewCell.swift */; };
+		E155BAF01CA122BA007315ED /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E155BAE31CA122BA007315ED /* MainTableViewController.swift */; };
+		E155BAF11CA122BA007315ED /* QCMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = E155BAE51CA122BA007315ED /* QCMethod.swift */; };
+		E155BAF21CA122BA007315ED /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E155BAE61CA122BA007315ED /* ResultViewController.swift */; };
+		E155BAF31CA122BA007315ED /* Sensor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E155BAE71CA122BA007315ED /* Sensor.swift */; };
+		E155BAF71CA12545007315ED /* WelcomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E155BAF61CA12545007315ED /* WelcomeScreenViewController.swift */; };
+		F22A65B68D9504F5B6AACB1B /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8F4C22F0D102798A51D3F1E /* Pods.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E155BABB1CA12149007315ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E155BA9E1CA12149007315ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E155BAA51CA12149007315ED;
+			remoteInfo = ParticleGarage;
+		};
+		E155BAC61CA12149007315ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E155BA9E1CA12149007315ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E155BAA51CA12149007315ED;
+			remoteInfo = ParticleGarage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6ACD3CF9EADD1014490B9DF8 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		D8F4C22F0D102798A51D3F1E /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E135505A1CA1406C00349F19 /* MainTopTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTopTableViewCell.swift; sourceTree = "<group>"; };
+		E135505E1CA1449200349F19 /* TableHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableHeaderView.swift; sourceTree = "<group>"; };
+		E155BAA61CA12149007315ED /* ParticleGarage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParticleGarage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E155BAAE1CA12149007315ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E155BAB01CA12149007315ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E155BAB31CA12149007315ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E155BAB51CA12149007315ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E155BABA1CA12149007315ED /* ParticleGarageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParticleGarageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E155BABE1CA12149007315ED /* ParticleGarageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticleGarageTests.swift; sourceTree = "<group>"; };
+		E155BAC01CA12149007315ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E155BAC51CA12149007315ED /* ParticleGarageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParticleGarageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E155BAC91CA12149007315ED /* ParticleGarageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticleGarageUITests.swift; sourceTree = "<group>"; };
+		E155BACB1CA12149007315ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E155BAD71CA12157007315ED /* ParticleGarage.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = ParticleGarage.entitlements; sourceTree = "<group>"; };
+		E155BAD81CA12157007315ED /* HomeKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HomeKit.framework; path = System/Library/Frameworks/HomeKit.framework; sourceTree = SDKROOT; };
+		E155BADA1CA122B9007315ED /* ParticleGarage-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ParticleGarage-Bridging-Header.h"; sourceTree = "<group>"; };
+		E155BADB1CA122BA007315ED /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E155BADC1CA122BA007315ED /* ChainIcon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChainIcon.swift; sourceTree = "<group>"; };
+		E155BADD1CA122BA007315ED /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		E155BADE1CA122BA007315ED /* Device.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
+		E155BADF1CA122BA007315ED /* DeviceDetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceDetailTableViewController.swift; sourceTree = "<group>"; };
+		E155BAE01CA122BA007315ED /* IndicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndicatorView.swift; sourceTree = "<group>"; };
+		E155BAE11CA122BA007315ED /* InternetConnectionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InternetConnectionManager.swift; sourceTree = "<group>"; };
+		E155BAE21CA122BA007315ED /* MainTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
+		E155BAE31CA122BA007315ED /* MainTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
+		E155BAE51CA122BA007315ED /* QCMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QCMethod.swift; sourceTree = "<group>"; };
+		E155BAE61CA122BA007315ED /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		E155BAE71CA122BA007315ED /* Sensor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sensor.swift; sourceTree = "<group>"; };
+		E155BAF61CA12545007315ED /* WelcomeScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeScreenViewController.swift; sourceTree = "<group>"; };
+		EF420089E477681C81E4DD12 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E155BAA31CA12149007315ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E155BAD91CA12157007315ED /* HomeKit.framework in Frameworks */,
+				F22A65B68D9504F5B6AACB1B /* Pods.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E155BAB71CA12149007315ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E155BAC21CA12149007315ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		81A12C82F1032B584FEF9FC5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D8F4C22F0D102798A51D3F1E /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BA96E47FA3292961BB921543 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6ACD3CF9EADD1014490B9DF8 /* Pods.debug.xcconfig */,
+				EF420089E477681C81E4DD12 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E155BA9D1CA12149007315ED = {
+			isa = PBXGroup;
+			children = (
+				E155BAD81CA12157007315ED /* HomeKit.framework */,
+				E155BAA81CA12149007315ED /* ParticleGarage */,
+				E155BABD1CA12149007315ED /* ParticleGarageTests */,
+				E155BAC81CA12149007315ED /* ParticleGarageUITests */,
+				E155BAA71CA12149007315ED /* Products */,
+				BA96E47FA3292961BB921543 /* Pods */,
+				81A12C82F1032B584FEF9FC5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E155BAA71CA12149007315ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E155BAA61CA12149007315ED /* ParticleGarage.app */,
+				E155BABA1CA12149007315ED /* ParticleGarageTests.xctest */,
+				E155BAC51CA12149007315ED /* ParticleGarageUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E155BAA81CA12149007315ED /* ParticleGarage */ = {
+			isa = PBXGroup;
+			children = (
+				E155BAD71CA12157007315ED /* ParticleGarage.entitlements */,
+				E155BAAD1CA12149007315ED /* Main.storyboard */,
+				E155BADB1CA122BA007315ED /* AppDelegate.swift */,
+				E155BAF51CA12343007315ED /* Views */,
+				E155BAF41CA12325007315ED /* ViewControllers */,
+				E155BAE11CA122BA007315ED /* InternetConnectionManager.swift */,
+				E155BAE71CA122BA007315ED /* Sensor.swift */,
+				E155BADD1CA122BA007315ED /* Constant.swift */,
+				E155BADE1CA122BA007315ED /* Device.swift */,
+				E155BAB01CA12149007315ED /* Assets.xcassets */,
+				E155BAB21CA12149007315ED /* LaunchScreen.storyboard */,
+				E155BAB51CA12149007315ED /* Info.plist */,
+				E155BADA1CA122B9007315ED /* ParticleGarage-Bridging-Header.h */,
+			);
+			path = ParticleGarage;
+			sourceTree = "<group>";
+		};
+		E155BABD1CA12149007315ED /* ParticleGarageTests */ = {
+			isa = PBXGroup;
+			children = (
+				E155BABE1CA12149007315ED /* ParticleGarageTests.swift */,
+				E155BAC01CA12149007315ED /* Info.plist */,
+			);
+			path = ParticleGarageTests;
+			sourceTree = "<group>";
+		};
+		E155BAC81CA12149007315ED /* ParticleGarageUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E155BAC91CA12149007315ED /* ParticleGarageUITests.swift */,
+				E155BACB1CA12149007315ED /* Info.plist */,
+			);
+			path = ParticleGarageUITests;
+			sourceTree = "<group>";
+		};
+		E155BAF41CA12325007315ED /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E155BADF1CA122BA007315ED /* DeviceDetailTableViewController.swift */,
+				E155BAE31CA122BA007315ED /* MainTableViewController.swift */,
+				E155BAE61CA122BA007315ED /* ResultViewController.swift */,
+				E155BAF61CA12545007315ED /* WelcomeScreenViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		E155BAF51CA12343007315ED /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E155BADC1CA122BA007315ED /* ChainIcon.swift */,
+				E155BAE01CA122BA007315ED /* IndicatorView.swift */,
+				E155BAE51CA122BA007315ED /* QCMethod.swift */,
+				E135505E1CA1449200349F19 /* TableHeaderView.swift */,
+				E155BAE21CA122BA007315ED /* MainTableViewCell.swift */,
+				E135505A1CA1406C00349F19 /* MainTopTableViewCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E155BAA51CA12149007315ED /* ParticleGarage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E155BACE1CA12149007315ED /* Build configuration list for PBXNativeTarget "ParticleGarage" */;
+			buildPhases = (
+				9C565FDACF0A0BF7794BF6C1 /* Check Pods Manifest.lock */,
+				E155BAA21CA12149007315ED /* Sources */,
+				E155BAA31CA12149007315ED /* Frameworks */,
+				E155BAA41CA12149007315ED /* Resources */,
+				A14D9A9D4B552A77D232A1D6 /* Embed Pods Frameworks */,
+				417FDB0A0B31A91384A97267 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ParticleGarage;
+			productName = ParticleGarage;
+			productReference = E155BAA61CA12149007315ED /* ParticleGarage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E155BAB91CA12149007315ED /* ParticleGarageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E155BAD11CA12149007315ED /* Build configuration list for PBXNativeTarget "ParticleGarageTests" */;
+			buildPhases = (
+				E155BAB61CA12149007315ED /* Sources */,
+				E155BAB71CA12149007315ED /* Frameworks */,
+				E155BAB81CA12149007315ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E155BABC1CA12149007315ED /* PBXTargetDependency */,
+			);
+			name = ParticleGarageTests;
+			productName = ParticleGarageTests;
+			productReference = E155BABA1CA12149007315ED /* ParticleGarageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E155BAC41CA12149007315ED /* ParticleGarageUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E155BAD41CA12149007315ED /* Build configuration list for PBXNativeTarget "ParticleGarageUITests" */;
+			buildPhases = (
+				E155BAC11CA12149007315ED /* Sources */,
+				E155BAC21CA12149007315ED /* Frameworks */,
+				E155BAC31CA12149007315ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E155BAC71CA12149007315ED /* PBXTargetDependency */,
+			);
+			name = ParticleGarageUITests;
+			productName = ParticleGarageUITests;
+			productReference = E155BAC51CA12149007315ED /* ParticleGarageUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E155BA9E1CA12149007315ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = AppIllustrator;
+				TargetAttributes = {
+					E155BAA51CA12149007315ED = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = T2WCY6H62T;
+						SystemCapabilities = {
+							com.apple.HomeKit = {
+								enabled = 1;
+							};
+						};
+					};
+					E155BAB91CA12149007315ED = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = E155BAA51CA12149007315ED;
+					};
+					E155BAC41CA12149007315ED = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = E155BAA51CA12149007315ED;
+					};
+				};
+			};
+			buildConfigurationList = E155BAA11CA12149007315ED /* Build configuration list for PBXProject "ParticleGarage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E155BA9D1CA12149007315ED;
+			productRefGroup = E155BAA71CA12149007315ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E155BAA51CA12149007315ED /* ParticleGarage */,
+				E155BAB91CA12149007315ED /* ParticleGarageTests */,
+				E155BAC41CA12149007315ED /* ParticleGarageUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E155BAA41CA12149007315ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E155BAB41CA12149007315ED /* LaunchScreen.storyboard in Resources */,
+				E155BAB11CA12149007315ED /* Assets.xcassets in Resources */,
+				E155BAAF1CA12149007315ED /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E155BAB81CA12149007315ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E155BAC31CA12149007315ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		417FDB0A0B31A91384A97267 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C565FDACF0A0BF7794BF6C1 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A14D9A9D4B552A77D232A1D6 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E155BAA21CA12149007315ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E135505F1CA1449200349F19 /* TableHeaderView.swift in Sources */,
+				E155BAEE1CA122BA007315ED /* InternetConnectionManager.swift in Sources */,
+				E155BAF31CA122BA007315ED /* Sensor.swift in Sources */,
+				E155BAE91CA122BA007315ED /* ChainIcon.swift in Sources */,
+				E155BAEF1CA122BA007315ED /* MainTableViewCell.swift in Sources */,
+				E155BAE81CA122BA007315ED /* AppDelegate.swift in Sources */,
+				E155BAF71CA12545007315ED /* WelcomeScreenViewController.swift in Sources */,
+				E135505B1CA1406C00349F19 /* MainTopTableViewCell.swift in Sources */,
+				E155BAF01CA122BA007315ED /* MainTableViewController.swift in Sources */,
+				E155BAEA1CA122BA007315ED /* Constant.swift in Sources */,
+				E155BAF11CA122BA007315ED /* QCMethod.swift in Sources */,
+				E155BAEB1CA122BA007315ED /* Device.swift in Sources */,
+				E155BAED1CA122BA007315ED /* IndicatorView.swift in Sources */,
+				E155BAEC1CA122BA007315ED /* DeviceDetailTableViewController.swift in Sources */,
+				E155BAF21CA122BA007315ED /* ResultViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E155BAB61CA12149007315ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E155BABF1CA12149007315ED /* ParticleGarageTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E155BAC11CA12149007315ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E155BACA1CA12149007315ED /* ParticleGarageUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E155BABC1CA12149007315ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E155BAA51CA12149007315ED /* ParticleGarage */;
+			targetProxy = E155BABB1CA12149007315ED /* PBXContainerItemProxy */;
+		};
+		E155BAC71CA12149007315ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E155BAA51CA12149007315ED /* ParticleGarage */;
+			targetProxy = E155BAC61CA12149007315ED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E155BAAD1CA12149007315ED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E155BAAE1CA12149007315ED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E155BAB21CA12149007315ED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E155BAB31CA12149007315ED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E155BACC1CA12149007315ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E155BACD1CA12149007315ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E155BACF1CA12149007315ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6ACD3CF9EADD1014490B9DF8 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = ParticleGarage/ParticleGarage.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/**";
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/**";
+				INFOPLIST_FILE = ParticleGarage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.appillustrator.ParticleGarage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ParticleGarage/ParticleGarage-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E155BAD01CA12149007315ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF420089E477681C81E4DD12 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = ParticleGarage/ParticleGarage.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/**";
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/**";
+				INFOPLIST_FILE = ParticleGarage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.appillustrator.ParticleGarage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ParticleGarage/ParticleGarage-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		E155BAD21CA12149007315ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ParticleGarageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.appillustrator.ParticleGarageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ParticleGarage.app/ParticleGarage";
+			};
+			name = Debug;
+		};
+		E155BAD31CA12149007315ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ParticleGarageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.appillustrator.ParticleGarageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ParticleGarage.app/ParticleGarage";
+			};
+			name = Release;
+		};
+		E155BAD51CA12149007315ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ParticleGarageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.appillustrator.ParticleGarageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ParticleGarage;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		E155BAD61CA12149007315ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ParticleGarageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.appillustrator.ParticleGarageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ParticleGarage;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E155BAA11CA12149007315ED /* Build configuration list for PBXProject "ParticleGarage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E155BACC1CA12149007315ED /* Debug */,
+				E155BACD1CA12149007315ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E155BACE1CA12149007315ED /* Build configuration list for PBXNativeTarget "ParticleGarage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E155BACF1CA12149007315ED /* Debug */,
+				E155BAD01CA12149007315ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E155BAD11CA12149007315ED /* Build configuration list for PBXNativeTarget "ParticleGarageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E155BAD21CA12149007315ED /* Debug */,
+				E155BAD31CA12149007315ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E155BAD41CA12149007315ED /* Build configuration list for PBXNativeTarget "ParticleGarageUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E155BAD51CA12149007315ED /* Debug */,
+				E155BAD61CA12149007315ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E155BA9E1CA12149007315ED /* Project object */;
+}

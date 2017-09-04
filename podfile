@@ -1,0 +1,13 @@
+use_frameworks!
+pod 'SparkSetup'
+pod 'Spark-SDK'
+pod 'Persei'
+pod 'ReachabilitySwift', :git => 'https://github.com/ashleymills/Reachability.swift'
+plugin 'cocoapods-keys', {
+  :project => "ParticleGarage",
+  :keys => [
+    "OAuthClientId",
+    "OAuthSecret",
+    "particleUserName",
+    "particlePassword"
+  ]}
